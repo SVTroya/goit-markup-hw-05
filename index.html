@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="description" content="Effective Solutions for Your Business"/>
+  <meta charset="UTF-8">
+  <meta name="description" content="Effective Solutions for Your Business">
   <!--suppress JSUnresolvedLibraryURL -->
   <link
       rel="stylesheet"
@@ -10,23 +10,23 @@
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-  />
-  <link rel="stylesheet" href="./css/styles.css"/>
+  >
+  <link rel="stylesheet" href="./css/styles.css">
   <title>WebStudio</title>
 </head>
 <body>
 <!--  Header  -->
-<header class="page-header">
+<header class="header">
   <div class="container">
     <nav class="navigation">
       <a href="./index.html" class="link link-logo">Web<span class="logo-main">Studio</span></a>
-      <ul class="list list-menu">
+      <ul class="list list-header list-menu">
         <li><a class="link link-menu current" href="./index.html">Studio</a></li>
         <li><a class="link link-menu" href="./portfolio.html">Portfolio</a></li>
         <li><a class="link link-menu" href="">Contacts</a></li>
@@ -34,7 +34,7 @@
     </nav>
 
     <address class="address">
-      <ul class="list list-address">
+      <ul class="list list-header">
         <li><a class="link link-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="link link-address" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
@@ -43,22 +43,22 @@
 </header>
 
 <main>
-<!--  Hero section  -->
+  <!--  Hero section  -->
   <section class="section section-hero" id="hero">
     <div class="container">
       <h1 class="hero-title">Effective Solutions for Your Business</h1>
-      <button class="button button-order-service" type="button" data-modal-open>Order Service</button>
+      <button class="button button-common" type="button" data-modal-open>Order Service</button>
     </div>
   </section>
 
-<!--  Advantages section  -->
+  <!--  Advantages section  -->
   <section class="section section-advantages" id="advantages">
     <div class="container">
       <h2 class="visually-hidden">Business Qualities</h2>
       <ul class="list list-advantages">
         <li class="advantage-instance">
           <div class="container-advantage-icon">
-            <svg class="advantage_icon" width="64" height="64">
+            <svg class="advantage-icon" width="64" height="64">
               <use href="./images/icons.svg#icon-strategy"/>
             </svg>
           </div>
@@ -108,7 +108,7 @@
     </div>
   </section>
 
-<!--  Platforms section  -->
+  <!--  Platforms section  -->
   <section class="section section-platforms" id="platforms">
     <div class="container">
       <h2 class="section-name">What are we doing</h2>
@@ -119,7 +119,7 @@
               alt="Monitor"
               width="360"
               height="300"
-          />
+          >
         </li>
         <li class="platform-instance">
           <img
@@ -127,7 +127,7 @@
               alt="Chat on a smartphone"
               width="360"
               height="300"
-          />
+          >
         </li>
         <li class="platform-instance">
           <img
@@ -135,13 +135,13 @@
               alt="Smartphone in a hand"
               width="360"
               height="300"
-          />
+          >
         </li>
       </ul>
     </div>
   </section>
 
-<!--  Our Team section  -->
+  <!--  Our Team section  -->
   <section class="section section-our-team" id="our-team">
     <div class="container">
       <h2 class="section-name">Our team</h2>
@@ -151,7 +151,7 @@
                src="images/our-team/team_card_1.jpg"
                alt="Mark Guerrero"
                width="264"
-          />
+          >
           <div class="container-team-member">
             <h3 class="employee-name">Mark Guerrero</h3>
             <p class="team-member-position">Product Designer</p>
@@ -192,7 +192,7 @@
                src="images/our-team/team_card_2.jpg"
                alt="Tom Ford"
                width="264"
-          />
+          >
           <div class="container-team-member">
             <h3 class="employee-name">Tom Ford</h3>
             <p class="team-member-position">Frontend Developer</p>
@@ -233,7 +233,7 @@
                src="images/our-team/team_card_3.jpg"
                alt="Camila Garcia"
                width="264"
-          />
+          >
           <div class="container-team-member">
             <h3 class="employee-name">Camila Garcia</h3>
             <p class="team-member-position">Marketing</p>
@@ -274,7 +274,7 @@
                src="images/our-team/team_card_4.jpg"
                alt="Daniel Wilson"
                width="264"
-          />
+          >
           <div class="container-team-member">
             <h3 class="employee-name">Daniel Wilson</h3>
             <p class="team-member-position">UI Designer</p>
@@ -314,7 +314,7 @@
     </div>
   </section>
 
-<!--  Customers section  -->
+  <!--  Customers section  -->
   <section class="section section-customers" id="customers">
     <div class="container">
       <h2 class="section-name">Customers</h2>
@@ -367,7 +367,7 @@
 </main>
 
 <!--  Footer  -->
-<footer class="page-footer">
+<footer class="footer">
   <div class="container">
     <div class="container-motivation">
       <a href="./index.html" class="link link-logo">Web<span class="logo-main">Studio</span></a>
@@ -413,9 +413,50 @@
 </footer>
 
 <!--  Modal  -->
-<div class="backdrop is-hidden" data-modal>
+<!--<div class="backdrop is-hidden" data-modal>-->
+<div class="backdrop" data-modal>
   <div class="modal">
-    <button class="button button-close" type="button" data-modal-close>
+    <form class="modal-form">
+      <p class="modal-header-text">Leave your contacts and we will call you back</p>
+      <label class="modal-label" for="full-name">
+        <span class="modal-text">Name</span>
+        <div class="modal-container-input">
+          <svg class="modal-input-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-person"/>
+          </svg>
+          <input type="text" class="modal-text-input" name="full-name" id="full-name">
+        </div>
+      </label>
+      <label class="modal-label" for="phone">
+        <span class="modal-text">Phone</span>
+        <div class="modal-container-input">
+          <svg class="modal-input-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone"/>
+          </svg>
+          <input type="tel" class="modal-text-input" name="phone" id="phone">
+        </div>
+      </label>
+      <label class="modal-label" for="email">
+        <span class="modal-text">Email</span>
+        <div class="modal-container-input">
+          <svg class="modal-input-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-email"/>
+          </svg>
+          <input type="email" class="modal-text-input" name="email" id="email">
+        </div>
+      </label>
+      <label class="modal-label" for="comment">
+        <span class="modal-text">Comment</span></label>
+      <textarea class="modal-comment" name="comment" id="comment" placeholder="Text input"></textarea>
+      <div class="modal-container-check">
+        <input type="checkbox" class="modal-checkbox" name="agreement" id="agreement">
+        <label class="modal-label agreement-text" for="agreement">I accept the terms and conditions of the
+          <a class="modal-link-policy" href="./index.html">Privacy Policy</a>
+        </label>
+      </div>
+      <button class="button button-common modal-btn-send" type="submit">Send</button>
+    </form>
+    <button class="button modal-btn-close" type="button" data-modal-close>
       <svg class="close-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-close"/>
       </svg>
@@ -427,3 +468,4 @@
 
 </body>
 </html>
+
