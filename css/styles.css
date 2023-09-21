@@ -629,6 +629,7 @@ input::placeholder{
     height: 120px;
     resize: none;
     padding: 8px 16px;
+    color: var(--navy-blue-modal);
 }
 
 .modal-input:focus-within,
@@ -684,7 +685,7 @@ input::placeholder{
 .modal-real-checkbox:checked + .modal-checkbox-label .modal-checkbox{
     background-color: var(--color-pressed-state);
     border: none;
-    fill: var(--color-text-light);
+    fill: var(--color-light);
 }
 
 .modal-link-policy {
